@@ -1,0 +1,142 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+html,
+ body {
+    background: url(../../img/home/home.png) no-repeat center;
+    height:100%;
+    width:100%;
+	background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }  
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    width:200px;
+    height:50px;
+    top:340px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size:25px;
+    padding: 10 10 5 5;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: black;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin:0 auto;
+
+}
+.homebox {
+}
+.design{
+    min-height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 3px solid #d6d6d6;
+    border-radius: 10px;
+    -webkit-box-shadow: 15px 10px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 10px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 15px 10px 15px 1px rgba(0,0,0,0.75);
+}
+.id{
+  text-align: left;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.comment{
+    background-color:white;
+    background-size:100% 100%;
+    padding:10px;
+    text-align:left;
+    border:2px solid #d6d6d6;
+    min-height: 80px;
+}
+.fontdesign{
+    font-size:30px;
+    color:White;
+    font-style:italic;
+    width:50%;
+    font-weight: 600;
+    text-align:center;
+    background-color:black;
+    opacity:0.8;
+    padding:15px;
+    margin-top:250px;
+    padding-bottom:30px;
+    border-radius:10px;
+}
+.findoutmore{
+    background-color:black;
+    opacity:0.8;
+    text-align:center;
+    font-style:italic;
+    font-weight:600;
+    font-size:25px;
+    padding:15px;
+    border-radius:5px;
+}
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
